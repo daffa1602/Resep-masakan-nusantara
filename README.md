@@ -16,31 +16,36 @@ Selamat datang di Masakuy App, aplikasi resep masakan Nusantara.
     ```bash
     composer install
     ```
+3. **jalankan npm install:**
+    ```bash
+   npm run install
+   npm run dev
+    ```
 
-3. **Salin Berkas `.env`:**
+4. **Salin Berkas `.env`:**
     ```bash
     cp .env.example .env
     ```
 
-4. **Konfigurasi `.env`:**
+5. **Konfigurasi `.env`:**
     - Buka berkas `.env` dan sesuaikan konfigurasi database dan pengaturan lainnya.
 
-5. **Generate Kunci Aplikasi:**
+6. **Generate Kunci Aplikasi:**
     ```bash
     php artisan key:generate
     ```
 
-6. **Jalankan Migrasi:**
+7. **Jalankan Migrasi:**
     ```bash
     php artisan migrate
     ```
 
-7. **Jalankan Seeder:**
+8. **Jalankan Seeder:**
     ```bash
     php artisan db:seed
     ```
 
-8. **Jalankan Aplikasi:**
+9. **Jalankan Aplikasi:**
     ```bash
     php artisan serve
     ```
