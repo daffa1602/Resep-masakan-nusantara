@@ -1,3 +1,71 @@
+# Masakuy App
+
+Selamat datang di Masakuy App, aplikasi resep masakan Nusantara.
+
+## Panduan Penggunaan
+
+### Instalasi
+
+1. **Clone Repositori:**
+    ```bash
+    git clone https://github.com/nama-pengguna/repo-masakuy.git
+    cd repo-masakuy
+    ```
+
+2. **Instal Dependensi:**
+    ```bash
+    composer install
+    ```
+
+3. **Salin Berkas `.env`:**
+    ```bash
+    cp .env.example .env
+    ```
+
+4. **Konfigurasi `.env`:**
+    - Buka berkas `.env` dan sesuaikan konfigurasi database dan pengaturan lainnya.
+
+5. **Generate Kunci Aplikasi:**
+    ```bash
+    php artisan key:generate
+    ```
+
+6. **Jalankan Migrasi:**
+    ```bash
+    php artisan migrate
+    ```
+
+7. **Jalankan Seeder:**
+    ```bash
+    php artisan db:seed
+    ```
+
+8. **Jalankan Aplikasi:**
+    ```bash
+    php artisan serve
+    ```
+
+Aplikasi Masakuy dapat diakses melalui [http://localhost:8000](http://localhost:8000).
+
+### Akun Pengguna
+
+- **Admin:**
+    - Email: admin@admin.com
+    - Password: admin12345
+
+- **Pengguna:**
+    - Email: user@user.com
+    - Password: user12345
+
+### Catatan Penting
+
+Pastikan untuk mengganti URL repositori dan detail lainnya sesuai dengan proyek Anda.
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
